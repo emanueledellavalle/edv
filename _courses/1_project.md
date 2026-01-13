@@ -1,0 +1,102 @@
+---
+layout: page
+title: Streaming Data Analytics
+description: with background image
+img: assets/img/12.jpg
+category: courses
+related_publications: true
+year: 2025
+---
+
+## Objectives
+
+The course provides the foundational concepts, methods, languages, and systems for ingesting, processing, and analyzing data that flows to enable real-time decisions. The course aims to tame the velocity dimensions of Big Data without forgetting the volume and variety dimensions.
+
+## Topics covered and tentative scheduling
+
+### Opening
+
+- 17/09/2025 – 1 – Administrative items and introduction to the course
+
+### Streaming Data Engineering
+
+- 18/09/2025 – 2 – Intro to Streaming Data Engineering
+- 24/09/2025 – 3 – Languages for DSMS illustrated via EPL \[CE\]
+- 25/09/2025 – 4 – Fire Alarm case study – part 1
+- 01/10/2025 – 5 – Languages for CEP illustrated via EPL & Fire Alarm case study – part 2
+- 02/10/2025 – 6 – Scaling stream ingestion with Apache Kafka \[CE\]
+- 08/10/2025 – 7 – Advanced EPL – Join Semantics using Ad case study & contexts using Bocce game case study
+- 09/10/2025 – 8 – A complete example of realistic problems solved using EPL: robotic arm monitoring
+- 15/10/2025 – 9 – Scaling stream processing with Apache Spark Structured Streaming \[CE\]
+- 16/10/2025 – 10 – Kafka & Spark Structured Streaming in practice
+- 22/10/2025 – 11 – Ingesting and analysing data of a global retail \[CE\]
+- 23/10/2025 – GRADUATION DAY – NO LECTURE
+
+### Streaming Data Science
+
+- 29/10/2025 – 13 – Introduction to Streaming Data Science
+- 30/10/2025 – 14 – TSA – Introduction to Time-series Analytics and the key concept of Stationarity
+- 05/11/2025 – 15 – TSA – Decomposing and detrending time-series with and without seasonality \[CE\]
+- 06/11/2025 – 16 – TSA Forecasting – Time-series forecasting baselines
+- 12/11/2025 – 17 – TSA Forecasting – Temporal Dependence, ARMA/ARIMA/SARIMA/SARIMAX models & order estimation
+- 13/11/2025 – 18 – TSA Forecasting – Meta’s Prophet & Deep Learning for Time Series \[CE\]
+- 19/11/2025 – 19 – SML Taming data streams – Foundations: learning one sample at a time, prequential evaluation, and Concept drift \[CE\]
+- 20/11/2025 – 20 – SML Predicting data streams – Methods for streaming classification via River
+- 26/11/2025 – 22 – Continual Learning Theory – An introduction **(out-of-order for logistic constraints)**
+- 27/11/2025 – 21 – SML Predicting data streams – Ensemble methods for streaming classification and methods for streaming regression (a.k.a., forecasting) via River \[CE\]
+- 03/12/2025 – 23 – Continual Learning Practice – Hands-on Avalanche \[CE\]
+- 04/12/2025 – 24 – SML vs Continual Learning
+- 10/12/2025 – GRADUATION DAY – NO LECTURE
+
+### Closing
+
+- 11/12/2025 – 12 – Preview of the questions and the exercises about Streaming Data Engineering \[CE\]
+- 17/12/2025 – 25 – Preview of the questions and the exercises about Streaming Data Science \[CE\]
+- 18/12/2025 – 26 – Our research activities and [thesis offering](https://forms.cloud.microsoft/e/E8d9Da314h) \[[slides](https://webeep.polimi.it/pluginfile.php/1462250/mod_folder/content/0/26a%20-%20Thesis%20Proposal.pdf?forcedownload=1), [recording](https://politecnicomilano.webex.com/politecnicomilano/ldr.php?RCID=03d36051de32d13d65eb605acbef6287)\]
+
+**LEGEND**: The labels **\[CE\]** mean that we perform [Continuous Evaluation](https://webeep.polimi.it/course/section.php?id=105816).
+
+**NOTE**: for the material refer to the [github](https://github.com/Streaming-Data-Analytics/Courseware) and the recordings refer to the **[Webeep](https://webeep.polimi.it/course/view.php?id=20659)** page of the course.
+
+## Thesis
+
+On Please complete [this form](https://forms.cloud.microsoft/e/E8d9Da314h) if you want a thesis on the course topic.
+
+## Prerequisites
+
+Students are expected to know the basics about: database management, SQL and Machine Learning.
+
+At the beginning of the course, for a refresh of **SQL**, I recommend [https://www.w3schools.com/sql/](https://www.w3schools.com/sql/). It is simple and comprehensive.
+
+For a gentle introduction to **Machine Learning**, I recommend watching the following two videos by [Luis Serrano](https://www.youtube.com/channel/UCgBncpylJ1kiVaPyP-PZauQ) before attending the Streaming Machine Learning classes:
+
+- A Friendly Introduction to Machine Learning – [https://youtu.be/IpGxLWOIZy4](https://youtu.be/IpGxLWOIZy4)
+- Machine Learning: Testing and Error Metrics – [https://youtu.be/aDW44NPhNw0](https://youtu.be/aDW44NPhNw0)
+
+I also recommend you to read/enjoy [the visual introduction to Decision Trees](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) by [R2D3](http://www.r2d3.us/).
+
+For a gentle introduction to **Deep Learning**, I recommend watching the following two videos by [Luis Serrano](https://www.youtube.com/channel/UCgBncpylJ1kiVaPyP-PZauQ) before the Continual Learning classes:
+
+- Logistic Regression and the Perceptron Algorithm: A friendly introduction – [https://youtu.be/jbluHIgBmBo](https://youtu.be/jbluHIgBmBo?si=W909YOuztbl-XO2k)
+- A friendly introduction to Deep Learning and Neural Networks – [https://youtu.be/BR9h47Jtqyw](https://youtu.be/BR9h47Jtqyw?si=2GMG5VGoFc620lnS)
+
+## Expected learning outcomes
+
+<table><tbody><tr><td>Knowledge and understanding</td><td>Students will learn how to identify problems that can be addressed with big data techniques tailored for velocity and apply the stream data analysis technologies for solving real-world problems</td></tr><tr><td>Applying knowledge and understanding</td><td>Given specific project cases, students will be able to define and implement a streaming data analysis solution for the problem, and apply it on real data streams from social media and IoT sensors</td></tr><tr><td>Making judgements</td><td>Given specific project cases, students will be able to learn how to decide which streaming data analysis solution to apply and how to evaluate this decision</td></tr><tr><td>Communication</td><td>Students will learn to write a report on a project describing and motivating the decisions taken and the results obtained, and oresent their work in front of their colleagues and teachers</td></tr><tr><td>Lifelong learning skills</td><td>Students will learn how to develop a realistic streaming data analysis project in all its phases</td></tr></tbody></table>
+
+## Evaluation
+
+The exam consists of a theoretical (written exam, with a possible oral discussion if necessary by the instructor) and an optional practical part (project work with oral presentation). Further contributions to the mark may come from optional continuous evaluations along the course using in-presence quizzes during the lessons and other interactive modalities in class (max one mark).
+
+The written exam comprises a mix of theoretical questions regarding any course subjects and exercises regarding the technical content and how to apply it in practice. Students can get up to 30 in the written test. The whole exam is a closed-book evaluation. A minimum score on each part is requested.  
+The optional practical project requires using one or more of the technologies presented in the lectures. It solves a realistic streaming data analysis problem based on real or realistic datasets publicly available or provided by the teachers. Only students who get at least 27/30 in the written exam can opt for it. The maximum increment for the optional project is three marks.
+
+The final grade is computed as follows: written text result + optional continuous evaluation result + optional practical project result. E.g., written text 27 + optional continuous evaluation 1 + optional practical project 3 = 30L
+
+## Bibliography
+
+- Kreps, Jay, [I Love logs: Event data, stream processing, and data integration.](https://books.google.it/books?id=gdiYBAAAQBAJ&lpg=PR3&ots=3yOdY3Vi7S&dq=I%20love%20logs&lr&pg=PR3#v=onepage&q=I%20love%20logs&f=false), O’Reilly Media, Inc., 2014 
+- [Event Processing Language (EPL)](https://esper.espertech.com/release-9.0.0/reference-esper/html_single/)
+- [Spark Structured Streaming](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)
+- Geoff Holmes, Ricard Gavaldà, Albert Bifet, Bernhard Pfahringer, [Machine Learning for Data Streams: With Practical Examples in MOA](https://www.google.it/books/edition/Machine_Learning_for_Data_Streams/0C9ZDwAAQBAJ?hl=en&gbpv=1), MIT Press, 2018
+- [Continual Learning Course](https://www.continualai.org/services/Course/)

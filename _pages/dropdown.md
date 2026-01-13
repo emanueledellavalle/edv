@@ -1,13 +1,13 @@
 ---
 layout: page
-title: submenus
+title: teaching
 nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: bookshelf
-    permalink: /books/
+  - title: statement
+    permalink: /teaching-statement/
   - title: divider
-  - title: blog
+  - title: Streaming Data Analytics
     permalink: /blog/
 ---
