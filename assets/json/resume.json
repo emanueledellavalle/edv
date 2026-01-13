@@ -1,200 +1,345 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Emanuele Della Valle",
+    "label": "Associate Professor; Streaming Data Analytics & Stream Reasoning",
+    "email": "emanuele.dellavalle@polimi.it",
+    "phone": "+39 338 9375810",
+    "url": "http://emanueledellavalle.org",
+    "summary": "Associate Professor at Politecnico di Milano (since 2020) and Chief Research Officer at motus ml (since 2023). Research spans streaming machine learning, time series analytics, continual learning, EdgeAI, and knowledge representation/reasoning on evolving data streams. Founder/co-founder of startups Fluxedo, Quantia Consulting, and motus ml; initiated the Stream Reasoning research field (2007).",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Via Recalcati, 2",
+      "postalCode": "21100",
+      "city": "Varese",
+      "countryCode": "IT",
+      "region": "Lombardy"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Personal website",
+        "username": "emanueledellavalle.org",
+        "url": "http://emanueledellavalle.org"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "emanueledellavalle",
+        "url": "https://www.linkedin.com/in/emanueledellavalle/"
+      },
+      {
+        "network": "DBLP",
+        "username": "pid/91/4526",
+        "url": "https://dblp.uni-trier.de/pid/91/4526.html"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "56lK2dUAAAAJ",
+        "url": "https://scholar.google.it/citations?user=56lK2dUAAAAJ"
+      },
+      {
+        "network": "Scopus",
+        "username": "8879414700",
+        "url": "https://www.scopus.com/authid/detail.uri?authorId=8879414700"
+      },
+      {
+        "network": "ORCID",
+        "username": "0000-0002-5176-5885",
+        "url": "https://orcid.org/0000-0002-5176-5885"
       }
+    ],
+    "birthDate": "1975-03-07",
+    "nationality": "Italian",
+    "otherEmails": [
+      "emanuele.dellavalle@gmail.com",
+      "emanuele.dellavalle75@pec.it"
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Politecnico di Milano",
+      "position": "Associate Professor (Professore Associato), Department of Electronics, Information and Bioengineering (DEIB)",
+      "location": "Milan, Italy",
+      "startDate": "2020-01-01",
+      "endDate": "",
+      "summary": "Research and teaching on streaming data analytics, stream reasoning, and semantic technologies.",
+      "highlights": [
+        "Started the Stream Reasoning research field (2007) at the intersection of stream processing and AI.",
+        "Industrial collaborations on streaming reasoning (Telecom Italia, IBM, Siemens, Oracle, Indra, Statoil).",
+        "Scientific Director roles for executive Masters (Analytics & BI; Big Data Engineering; Big Data Science)."
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "motus ml s.r.l. S.B. (Politecnico di Milano spin-off)",
+      "position": "Chief Research Officer (CRO)",
+      "location": "Milan, Italy",
+      "startDate": "2023-01-01",
+      "endDate": "",
+      "summary": "EdgeAI solutions for continuous analysis of data flows from IoT devices (often intermittently connected).",
+      "highlights": [
+        "Co-founder; company launched to exploit research on Streaming Data Analytics.",
+        "Focus on EdgeAI for IoT data flows."
+      ]
+    },
+    {
+      "name": "Politecnico di Milano",
+      "position": "Assistant Professor (Ricercatore di Ruolo confermato), DEIB",
+      "location": "Milan, Italy",
+      "startDate": "2008-01-01",
+      "endDate": "2020-01-01",
+      "summary": "Academic research, teaching, and service in semantic technologies, stream processing, and data science.",
+      "highlights": [
+        "Developed early RDF stream processing and stream reasoning systems (e.g., C-SPARQL Engine).",
+        "Organized Stream Reasoning workshop series (multiple editions since 2009)."
+      ]
+    },
+    {
+      "name": "CEFRIEL",
+      "position": "Program Manager, Semantic Web Practice",
+      "location": "Milan, Italy",
+      "startDate": "2001-01-01",
+      "endDate": "2008-01-01",
+      "summary": "Led CEFRIEL’s Semantic Web Practice; worked on strategic consultancy projects in eBusiness, eGovernment, and eHealth.",
+      "highlights": [
+        "Founded and coordinated the Semantic Web Practice (from 2003).",
+        "Worked on strategic consultancy IT projects (2001–2004)."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Vrije Universiteit Amsterdam",
+      "area": "Computer Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2015-01-01",
+      "endDate": "2015-01-01",
+      "score": "",
+      "courses": [
+        "On Stream Reasoning"
+      ],
+      "summary": "PhD on Stream Reasoning; advisor/promoter: Frank van Harmelen."
+    },
+    {
+      "institution": "Politecnico di Milano",
+      "area": "Computer Science and Engineering",
+      "studyType": "Master (Laurea in Ingegneria Informatica)",
+      "startDate": "2000-01-01",
+      "endDate": "2000-01-01",
+      "score": "97/100",
+      "courses": [
+        "Reinforcement Learning with perceptual aliasing: a study on the usage of the memory registry"
+      ]
+    },
+    {
+      "institution": "Liceo Scientifico G. Galilei (Siena)",
+      "area": "Scientific High School Diploma (Maturità Scientifica)",
+      "studyType": "Diploma",
+      "startDate": "1993-01-01",
+      "endDate": "1993-01-01",
+      "score": "60/60"
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "Big Data TENET",
+      "date": "2024-01-01",
+      "awarder": "",
+      "summary": "Recognition listed in CV highlights."
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "title": "Best Paper Award (ISWC 2021)",
+      "date": "2021-09-01",
+      "awarder": "International Semantic Web Conference (ISWC)",
+      "summary": "Chimera: A Bridge Between Big Data Analytics and Semantic Technologies."
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "title": "Best Paper Award (BIS 2021)",
+      "date": "2021-07-01",
+      "awarder": "Business Information Systems (BIS)",
+      "summary": "Supporting an Expert-centric Process of New Product Introduction With Statistical Machine Learning."
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "title": "Best Paper Award (ESWC 2021)",
+      "date": "2021-05-01",
+      "awarder": "Extended Semantic Web Conference (ESWC)",
+      "summary": "RSP4J: An API for RDF Stream Processing."
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
+      "title": "Best Paper Award (CAiSE 2019)",
+      "date": "2019-06-01",
+      "awarder": "Conference on Advanced Information Systems Engineering (CAiSE)",
+      "summary": "D2IA: Stream Analytics on User-Defined Event Intervals."
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "title": "Best Paper Award (IEEE MultiMedia 2016)",
+      "date": "2016-10-01",
+      "awarder": "IEEE MultiMedia",
+      "summary": "CitySensing: Fusing City Data for Visual Storytelling."
+    },
+    {
+      "title": "IBM Faculty Award",
+      "date": "2013-09-01",
+      "awarder": "IBM",
+      "summary": "Faculty Award 2013 (research program on City Data Fusion)."
+    },
+    {
+      "title": "IBM Faculty Award",
+      "date": "2006-09-01",
+      "awarder": "IBM",
+      "summary": "Faculty Award 2006 (Model-Driven Semantic Web Application Development)."
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "It's a Streaming World! Reasoning upon Rapidly Changing Information",
+      "publisher": "IEEE Intelligent Systems",
+      "releaseDate": "2009-01-01",
+      "url": "",
+      "summary": "Foundational paper framing the Stream Reasoning research question."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Querying RDF streams with C-SPARQL",
+      "publisher": "SIGMOD Record",
+      "releaseDate": "2010-01-01",
+      "url": "",
+      "summary": "Introduced C-SPARQL for continuous querying over RDF streams."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Deductive and Inductive Stream Reasoning for Semantic Social Media Analytics",
+      "publisher": "IEEE Intelligent Systems",
+      "releaseDate": "2010-01-01",
+      "url": "",
+      "summary": "Combined deductive and inductive techniques for social media stream analytics."
+    },
+    {
+      "name": "CitySensing: Fusing City Data for Visual Storytelling",
+      "publisher": "IEEE MultiMedia",
+      "releaseDate": "2015-01-01",
+      "url": "",
+      "summary": "City-scale data fusion for visual storytelling (Best Paper Award)."
+    },
+    {
+      "name": "Stream reasoning: A survey and outlook",
+      "publisher": "Data Science",
+      "releaseDate": "2017-01-01",
+      "url": "",
+      "summary": "Survey and outlook on stream reasoning research."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Streaming Data Analytics",
+      "level": "",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Streaming machine learning",
+        "Time series analytics",
+        "Continual learning",
+        "EdgeAI"
+      ]
+    },
+    {
+      "name": "Stream Reasoning",
+      "level": "",
+      "keywords": [
+        "RDF stream processing",
+        "RSP-QL",
+        "Complex event processing",
+        "Knowledge representation & reasoning"
+      ]
+    },
+    {
+      "name": "Data Engineering",
+      "level": "",
+      "keywords": [
+        "Stream processing",
+        "Kafka",
+        "Spark",
+        "NoSQL",
+        "Big Data architectures"
+      ]
+    },
+    {
+      "name": "Semantic Technologies",
+      "level": "",
+      "keywords": [
+        "RDF",
+        "OWL",
+        "SPARQL",
+        "Ontology-based data access",
+        "Knowledge graphs"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "language": "Italian",
+      "fluency": "Native"
     },
     {
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "fluency": "C2"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "motus ml",
+      "startDate": "2023-01-01",
+      "endDate": "",
+      "url": "",
+      "summary": "Politecnico di Milano spin-off delivering EdgeAI solutions for IoT devices.",
+      "highlights": [
+        "CRO and co-founder",
+        "EdgeAI for intermittent connectivity"
+      ]
+    },
+    {
+      "name": "Quantia Consulting",
+      "startDate": "2019-01-01",
+      "endDate": "",
+      "url": "",
+      "summary": "Strategic consultancy and education services for data-driven transformation.",
+      "highlights": [
+        "Co-founder"
+      ]
+    },
+    {
+      "name": "Fluxedo",
+      "startDate": "2016-01-01",
+      "endDate": "2019-01-01",
+      "url": "",
+      "summary": "Crowd analytics solutions using continuous social media analytics and Edge AI (smart cameras).",
+      "highlights": [
+        "Co-founder"
+      ]
+    },
+    {
+      "name": "RSP4J",
+      "startDate": "2016-01-01",
+      "endDate": "",
+      "url": "",
+      "summary": "Library to build RDF Stream Processing engines according to the RSP-QL reference model.",
+      "highlights": [
+        "Second-generation successor of rsplab",
+        "Repository for examples in Streaming Linked Data book (2023)"
+      ]
+    },
+    {
+      "name": "C-SPARQL Engine",
+      "startDate": "2008-01-01",
+      "endDate": "2015-01-01",
+      "url": "",
+      "summary": "First RDF stream processor with stream reasoning capabilities.",
+      "highlights": [
+        "Adopted in multiple sectors; widely downloaded"
+      ]
+    },
+    {
+      "name": "Squiggle",
+      "startDate": "2006-01-01",
+      "endDate": "2008-01-01",
+      "url": "",
+      "summary": "Lightweight semantic search solution deployed in multiple contexts.",
+      "highlights": [
+        "StartCup Milano Lombardia (2008) second prize"
+      ]
     }
   ]
 }
